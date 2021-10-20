@@ -1,0 +1,269 @@
+.player-info {
+  margin-top: 40px;
+}
+
+.player-info .player-info__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  padding: 50px 0 50px;
+}
+
+.player-info .player-info__inner .player-info__main .info__main-inner {
+  display: flex;
+  align-items: center;
+}
+
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about {
+  margin-left: 30px;
+}
+
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__name {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0F141F;
+  text-transform: uppercase;
+}
+
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info {
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 20px;
+}
+
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team {
+  margin-top: 20px;
+}
+
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date {
+  display: flex;
+  align-items: center;
+}
+
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height .height__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height .weight__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height .age__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height .numb__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height .role__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height .country__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height .game__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height .zerogame__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height .team__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-height .date__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight .height__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight .weight__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight .age__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight .numb__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight .role__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight .country__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight .game__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight .zerogame__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight .team__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-weight .date__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age .height__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age .weight__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age .age__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age .numb__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age .role__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age .country__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age .game__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age .zerogame__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age .team__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-age .date__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb .height__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb .weight__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb .age__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb .numb__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb .role__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb .country__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb .game__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb .zerogame__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb .team__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-numb .date__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role .height__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role .weight__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role .age__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role .numb__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role .role__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role .country__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role .game__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role .zerogame__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role .team__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-role .date__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .height__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .weight__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .age__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .numb__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .role__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .country__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .game__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .zerogame__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .team__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .date__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game .height__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game .weight__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game .age__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game .numb__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game .role__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game .country__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game .game__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game .zerogame__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game .team__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-game .date__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame .height__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame .weight__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame .age__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame .numb__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame .role__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame .country__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame .game__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame .zerogame__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame .team__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-zerogame .date__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .height__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .weight__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .age__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .numb__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .role__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .country__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .game__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .zerogame__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .team__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .date__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date .height__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date .weight__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date .age__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date .numb__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date .role__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date .country__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date .game__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date .zerogame__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date .team__text,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-date .date__text {
+  font-weight: bold;
+  color: #0F141F;
+  width: 120px;
+}
+
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .team__numb,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .country__numb,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .team__numb,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .country__numb {
+  display: flex;
+  align-items: center;
+}
+
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-team .team__numb img,
+.player-info .player-info__inner .player-info__main .info__main-inner .info__main-about .main-about__info .about__info-country .team__numb img {
+  margin-right: 5px;
+}
+
+.player-info .player-info__inner .player-info__more {
+  margin-left: 5%;
+}
+
+.player-info .player-info__inner .player-info__more .info__more-title {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  color: #0F141F;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.player-info .player-info__inner .player-info__more .info__more-inner {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.player-info .player-info__inner .player-info__more .info__more-inner .info__more-block {
+  padding: 5px;
+  position: relative;
+}
+
+.player-info .player-info__inner .player-info__more .info__more-inner .info__more-block .more-block__name {
+  background: #765CD9;
+  position: absolute;
+  bottom: 0;
+  left: 5px;
+  width: 90px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.player-info .player-info__inner .player-info__more .info__more-next {
+  margin-top: 15px;
+  text-align: right;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #1F3E7D;
+}
+
+@media screen and (max-width: 996px) {
+  .player-info__inner {
+    flex-direction: column;
+  }
+  .player-info__more {
+    margin-top: 30px;
+    margin-left: 0 !important;
+  }
+  .player-info__more .info__more-title {
+    margin-bottom: 10px !important;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .main-about__name {
+    font-size: 14px !important;
+  }
+  .main-about__info {
+    font-size: 12px !important;
+  }
+  .height__text,
+.weight__text,
+.age__text,
+.numb__text,
+.role__text,
+.country__text,
+.game__text,
+.zerogame__text,
+.team__text,
+.date__text {
+    font-weight: bold;
+    color: #0F141F;
+    width: 80px !important;
+  }
+  .info__main-about {
+    margin-left: 10px !important;
+  }
+  .about__info-team .team__numb,
+.about__info-team .country__numb,
+.about__info-country .team__numb,
+.about__info-country .country__numb {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about__info-team .team__numb img,
+.about__info-country .team__numb img {
+    margin-right: 0px !important;
+  }
+}
