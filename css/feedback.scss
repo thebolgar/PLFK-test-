@@ -1,0 +1,103 @@
+.feedback {
+    margin-top: 40px;
+    .feedback__inner {
+        padding: 50px 0 50px;
+        background: #FFFFFF;
+        .feedback__title {
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: #0F141F;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .feedback__block {
+            margin-top: 40px;
+            .feedback__block-inner {
+                width: 1000px;
+                margin: 0 auto;
+                border: 1px solid #D7D7D7;
+                box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+                .feedback__form {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 50px 100px 50px;
+
+                    .feedback__form-email {
+                        margin: 20px 0;
+                    }
+
+                    .feedback__form-name,
+                    .feedback__form-email {
+                        width: 600px;
+                        height: 50px;
+                        border: 1px solid #D7D7D7;
+                        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+                        padding: 15px 25px;
+                        outline: none;
+                        font-size: 18px;
+                        line-height: 21px;
+
+                        .placeholder {
+                            color: #000000;
+                            opacity: 0.5;
+                            
+                        }
+                    }
+
+                    .feedback__form-message {
+                        border: 1px solid #D7D7D7;
+                        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.07);
+                        padding: 15px 25px;
+                        font-size: 18px;
+                        line-height: 21px;
+                        outline: none;
+                        resize: vertical;
+
+                        .placeholder {
+                            color: #000000;
+                            opacity: 0.5;
+                            
+                        }
+                    }
+
+                    .feedback__form-button {
+                        margin-top: 20px;
+                        text-transform: uppercase;
+                        width: 100%;
+                        background-color: #FFFFFF;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        font-weight: bold;
+                        font-size: 18px;
+                        line-height: 21px;
+                        color: #2B4388;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .feedback__block-inner {
+        width: 100% !important;
+    }
+
+    .feedback__form-name,
+    .feedback__form-email {
+        width: 100% !important;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .feedback__form {
+        padding: 30px 10px !important;
+    }
+}
+
