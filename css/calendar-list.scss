@@ -1,0 +1,284 @@
+
+
+
+
+// ====== CALENDAR TABEL =======
+
+.calendar-list {
+    margin-top: 40px;
+    .calendar-list__inner {
+        padding: 60px 100px 100px 100px;
+        background: #FFFFFF;
+        .calendar-list__view {
+            padding: 0 0 40px 100px;
+            display: flex;
+            align-items: center;
+
+            .calendar-list__view-title {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                color: #1F3E7D;
+                margin-right: 30px;
+            }
+            .calendar-list__view-list {
+                margin-right: 10px;
+            }
+        }
+
+        .calendar-list__nav {
+            display: flex;
+            padding-left: 100px;
+
+            .list__nav-item {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                color: #0F141F;
+                margin-left: 60px;
+                position: relative;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 5px;
+                    right: -17px;
+                    border: 7px solid transparent; border-top: 10px solid #0F141F;
+                }
+            }
+
+            .list__nav-item:first-child {
+                margin-left: 0px;
+            }
+        }
+        .calendar-list__header {
+            margin-top: 40px;
+            .calendar-list__header-inner {
+                padding-top: 20px;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                display: flex;
+                font-size: 12px;
+                line-height: 14px;
+                text-align: center;
+                color: #0F141F;
+
+                .header__inner-date {
+                    width: 10%;
+                }
+
+                .header__inner-time {
+                    width: 5%;
+                }
+
+                .header__inner-turnament {
+                    width: 25%;
+                }
+
+                .header__inner-vs {
+                    width: 25%;
+                }
+
+                .header__inner-score {
+                    width: 15%;
+                }
+
+                .header__inner-fan {
+                    width: 5%;
+                }
+
+                .header__inner-stream {
+                    width: 15%;
+                }
+
+            }
+        }
+        .calendar-list__block {
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            .calendar-list__block-inner {
+               display: flex;
+               align-items: center;
+               font-size: 12px;
+                line-height: 14px;
+                
+                
+
+               .block__inner-date {
+                    width: 10%;
+                    text-align: center;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #0F141F;
+                    font-weight: bold;
+               }
+
+               .block__inner-time {
+                width: 5%;
+                text-align: center;
+               }
+
+               .block__inner-turnament {
+                width: 25%;
+                text-align: center;
+                background: #F4F4F4;
+                padding: 25px 0;
+               }
+
+               .block__inner-vs {
+                   width: 25%;
+                   justify-content: space-around;
+                    display: flex;
+                    align-items: center;
+                    .vs__team {
+                        display: flex;
+                        align-items: center;
+                    }
+               }
+
+               .block__inner-score {
+                width: 15%;
+                text-align: center;
+               }
+
+               .block__inner-fan {
+                width: 5%;
+                text-align: center;
+               }
+
+               .block__inner-stream {
+                width: 15%;
+                text-align: center;
+                font-weight: bold;
+                color: #2B4388;
+               }
+            }
+           
+        }
+        .calendar__block-more {
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            color: #2B4388;
+           text-align: center;
+           margin-top: 40px;
+           margin-bottom: 60px;
+
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .calendar-list__inner {
+        padding: 20px 40px !important;
+    }
+    
+    
+}
+
+@media screen and (max-width: 830px) {
+    .calendar-list__inner {
+        padding: 40px 10px !important;
+    }
+    .header__inner-time {
+        width: 10% !important;
+    }
+    .block__inner-time {
+        width: 10% !important;
+    }
+    .block__inner-vs {
+        width: 20%;
+        flex-direction: column;
+    }
+    
+    
+}
+
+@media screen and (max-width: 630px) {
+    .calendar-list__inner {
+        padding: 40px 10px !important;
+    }
+    .header__inner-fan {
+        width: 10% !important;
+    }
+
+    .block__inner-fan {
+        width: 10% !important;
+    }
+    .header__inner-time {
+        width: 15% !important;
+    }
+    .block__inner-time {
+        width: 15% !important;
+    }
+    .block__inner-vs {
+        width: 10%;
+        flex-direction: column;
+        
+        .vs__team {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .block__inner-date {
+        font-size: 12px !important;
+        writing-mode: vertical-rl;
+    }
+    
+    
+}
+
+@media screen and (max-width: 580px) {
+    .calendar-list__header-inner {
+       
+    }
+    .calendar-list__inner {
+        padding: 20px 10px !important;
+    }
+
+    .header__inner-date {
+        width: 10%;
+        writing-mode: vertical-rl;
+    }
+
+    .header__inner-time {
+        width: 7% !important;
+        writing-mode: vertical-rl;
+    }
+
+    .header__inner-turnament {
+        width: 17% !important;
+        writing-mode: vertical-rl;
+    }
+
+    .header__inner-vs {
+        width: 21% !important;
+        writing-mode: vertical-rl;
+    }
+
+    .header__inner-score {
+        width: 18% !important;
+        writing-mode: vertical-rl;
+    }
+
+    .header__inner-fan {
+        width: 5%;
+        writing-mode: vertical-rl;
+    }
+
+    .header__inner-stream {
+        width: 12% !important;
+        writing-mode: vertical-rl;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .calendar-list__header-inner,
+    .calendar-list__block-inner {
+        font-size: 10px !important;
+    }
+
+}
