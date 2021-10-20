@@ -1,0 +1,131 @@
+.contacts {
+  margin-top: 40px;
+}
+
+.contacts .contacts__inner {
+  width: 80%;
+  margin: 0 auto;
+  background: #FFFFFF;
+  padding: 5% 0 5% 10%;
+}
+
+.contacts .contacts__inner .contacts__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 147%;
+  color: #0F141F;
+  margin: 60px 0 30px 0;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner {
+  display: flex;
+  align-items: center;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-map {
+  position: relative;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-map img {
+  max-width: 300px;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-map .map__icon {
+  position: absolute;
+  top: 75px;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 147%;
+  color: #FFFFFF;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-map .map__icon img {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info {
+  margin-left: 30px;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress {
+  font-size: 16px;
+  line-height: 147%;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-adress,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-phone,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-email {
+  display: flex;
+  margin-top: 10px;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-adress .adress__left,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-adress .phone__left,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-adress .email__left,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-phone .adress__left,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-phone .phone__left,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-phone .email__left,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-email .adress__left,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-email .phone__left,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__block-info .contacts__info-adress .info__adress-email .email__left {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social {
+  display: flex;
+  margin-top: 30px;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left {
+  margin-right: 40px;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left .socail__inst,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left .socail__vk,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__right .socail__inst,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__right .socail__vk {
+  margin-bottom: 10px;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left .socail__inst,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left .socail__twitter,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left .socail__vk,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left .socail__youtube,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__right .socail__inst,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__right .socail__twitter,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__right .socail__vk,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__right .socail__youtube {
+  display: flex;
+}
+
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left .socail__inst img,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left .socail__twitter img,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left .socail__vk img,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__left .socail__youtube img,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__right .socail__inst img,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__right .socail__twitter img,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__right .socail__vk img,
+.contacts .contacts__inner .contacts__block .contacts__block-inner .contacts__info-social .social__right .socail__youtube img {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .contacts__block-inner {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .contacts__inner {
+    width: 100% !important;
+    padding: 5px !important;
+  }
+}
