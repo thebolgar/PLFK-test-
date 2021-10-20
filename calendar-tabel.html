@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFLK</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calendar-tabel.css">
+</head>
+
+<body class="lock">
+
+
+    <!------ === HEADER === ------->
+ 
+    <header class="header">
+     <div class="header__inner">
+         <div class="header__top-line header__top-line--active">
+             <div class="wrapper">
+                 <div class="top-line__item">
+                     <a href="#" class="top-line__item-link">UEFA</a>
+                     <a href="#" class="top-line__item-link">FIFA</a>
+                     <a href="#" class="top-line__item-link">EURO</a>
+                     <a href="#" class="top-line__item-link">KFF</a>
+                 </div>
+             </div>
+         </div>
+         <div class="header__menu">
+             <div class="wrapper">
+                 <div class="header__menu-inner">
+                     <div class="header__menu-logo">
+                         <img src="fonts/logo.svg" alt="logo">
+                         <div class="header__menu-logo--text">
+                             PFLK
+                         </div>
+                     </div>
+                     <div class="header__nav">
+                         <nav class="nav">
+                             <ul class="nav__list">
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">Главная</a>
+                                 </li>
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">новости</a>
+                                 </li>
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">результаты</a>
+                                 </li>
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">расписание</a>
+                                 </li>
+                                 <li class="nav__list-item nav__list-item--extra">
+                                     <a href="#" class="nav__list-link">дополнительно</a>
+                                 </li>
+                             </ul>
+                         </nav>
+                         <div class="olympbets__nav">
+                             <ul class="olympbet__list">
+                                 <li class="olympbet__list-item">
+                                     <a href="#" class="olympbet__list-link">olympbet-чемпионат</a>
+                                 </li>
+                                 <li class="olympbet__list-item">
+                                     <a href="#" class="olympbet__list-link">Первая лига</a>
+                                 </li>
+                                 <li class="olympbet__list-item">
+                                     <a href="#" class="olympbet__list-link">Вторая лига</a>
+                                 </li>
+                                 <li class="olympbet__list-item">
+                                     <a href="#" class="olympbet__list-link">olimpbet-суперкубок</a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div class="header__menu-adaptive header__menu-adaptive--close">
+                         <nav class="nav">
+                             <div class="nav__item">
+                                 <div class="nav__item-user">
+                                     <img src="fonts/user-icon.svg" alt="">
+                                 </div>
+                                 <div class="nav__item-close">
+                                     <img src="fonts/burger__menu-close.svg" alt="">
+                                 </div>
+                             </div>
+                             <ul class="nav__list">
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">Главная</a>
+                                 </li>
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">новости</a>
+                                 </li>
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">результаты</a>
+                                 </li>
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">расписание</a>
+                                 </li>
+                             </ul>
+                             <ul class="nav__list-second">
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">приз. с.жейлитбаева</a>
+                                 </li>
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">администрация</a>
+                                 </li>
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">Документы</a>
+                                 </li>
+                                 <li class="nav__list-item">
+                                     <a href="#" class="nav__list-link">календарь</a>
+                                 </li>
+                                 <li class="nav__list-item nav__list-item--extra">
+                                     <a href="#" class="nav__list-link">обратная связь</a>
+                                 </li>
+                             </ul>
+                         </nav>
+                         <div class="olympbets__nav">
+                             <ul class="olympbet__list">
+                                 <li class="olympbet__list-item">
+                                     <a href="#" class="olympbet__list-link">olympbet-чемпионат</a>
+                                 </li>
+                                 <li class="olympbet__list-item">
+                                     <a href="#" class="olympbet__list-link">Первая лига</a>
+                                 </li>
+                                 <li class="olympbet__list-item">
+                                     <a href="#" class="olympbet__list-link">Вторая лига</a>
+                                 </li>
+                                 <li class="olympbet__list-item">
+                                     <a href="#" class="olympbet__list-link">olimpbet-суперкубок</a>
+                                 </li>
+                             </ul>
+                         </div>
+                     </div>
+                     <div class="nav__icon">
+                         <div class="nav__icon-item nav__icon-search">
+                             <img src="fonts/search-icon.svg" alt="search-icon">
+                         </div>
+                         <div class="nav__icon-item nav__icon-user">
+                             <img src="fonts/user-icon.svg" alt="user-icon">
+                         </div>
+                         <div class="nav__icon-item nav__icon-tv">
+                             <a class="nav__icon-tv__link" href="#">PLFK TV</a>
+                         </div>
+                         <div class="nav__icon-item nav__icon-burger">
+                             <img src="fonts/burger__menu.svg" alt="">
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </header>
+
+
+
+       <!------- === TEAM INFO === ------->
+
+<section class="team-info">
+    <div class="wrapper">
+        <div class="team-info__inner">
+            <div class="team-info__top-line">
+                <div class="top-line__leftside">
+                    инфо
+                </div>
+                <div class="top-line__rightside">
+                    общая информация
+                </div>
+            </div>
+            <div class="team-info__main">
+                <div class="team-info__main-inner">
+                    <div class="team-info__main-rightside">
+                        <div class="main__rightside-team-logo">
+                            <img src="images/team-info/team-info__logo.png" alt="">
+                        </div>
+                        <div class="main__rightside-info">
+                            <div class="rightside__info-title">
+                                FC ASTANA/футбольный клуб астана
+                            </div>
+                            <div class="main__leftside-info-about">
+                                <div class="leftside-info__about-left">
+                                    <div class="about-left__item">
+                                        <div class="item__inner-first">
+                                            Прозвище
+                                        </div>
+                                        <div class="item__inner-second">
+                                            Сине-желтые, Горожане
+                                        </div>
+                                    </div>
+                                    <div class="about-left__item">
+                                        <div class="item__inner-first">
+                                            Лучший
+                                            <br>
+                                            бомбардир
+                                        </div>
+                                        <div class="item__inner-second">
+                                            Дмитрий Непогодов
+                                        </div>
+                                    </div>
+                                    <div class="about-left__item">
+                                        <div class="item__inner-first">
+                                            Капитан
+                                        </div>
+                                        <div class="item__inner-second">
+                                            Абзал Бейсебеков
+                                        </div>
+                                    </div>
+                                    <div class="about-left__item">
+                                        <div class="item__inner-first">
+                                            Президент
+                                        </div>
+                                        <div class="item__inner-second">
+                                            Михаил Гурман
+                                        </div>
+                                    </div>
+                                    <div class="about-left__item">
+                                        <div class="item__inner-first">
+                                            Гл. тренер
+                                        </div>
+                                        <div class="item__inner-second">
+                                            -
+                                        </div>
+                                    </div>
+                                    <div class="about-left__item">
+                                        <div class="item__inner-first">
+                                            Рейтинг
+                                        </div>
+                                        <div class="item__inner-second">
+                                            137-ое место УЕФА
+                                        </div>
+                                    </div>
+                                    <div class="about-left__item">
+                                        <div class="item__inner-first">
+                                            Спонсор
+                                        </div>
+                                        <div class="item__inner-second">
+                                            АО «Самрук-Казына»
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-info__main-leftside">
+                        <div class="team-info__main-leftside__header">
+                            общая информация
+                        </div>
+                        <div class="main__leftside-info-about">
+                            <div class="leftside-info__about-left">
+                                <div class="about-left__item">
+                                    <div class="item__inner-first">
+                                        Прозвище
+                                    </div>
+                                    <div class="item__inner-second">
+                                        Сине-желтые, Горожане
+                                    </div>
+                                </div>
+                                <div class="about-left__item">
+                                    <div class="item__inner-first">
+                                        Лучший
+                                        <br>
+                                        бомбардир
+                                    </div>
+                                    <div class="item__inner-second">
+                                        Дмитрий Непогодов
+                                    </div>
+                                </div>
+                                <div class="about-left__item">
+                                    <div class="item__inner-first">
+                                        Капитан
+                                    </div>
+                                    <div class="item__inner-second">
+                                        Абзал Бейсебеков
+                                    </div>
+                                </div>
+                                <div class="about-left__item">
+                                    <div class="item__inner-first">
+                                        Президент
+                                    </div>
+                                    <div class="item__inner-second">
+                                        Михаил Гурман
+                                    </div>
+                                </div>
+                                <div class="about-left__item">
+                                    <div class="item__inner-first">
+                                        Гл. тренер
+                                    </div>
+                                    <div class="item__inner-second">
+                                        -
+                                    </div>
+                                </div>
+                                <div class="about-left__item">
+                                    <div class="item__inner-first">
+                                        Рейтинг
+                                    </div>
+                                    <div class="item__inner-second">
+                                        137-ое место УЕФА
+                                    </div>
+                                </div>
+                                <div class="about-left__item">
+                                    <div class="item__inner-first">
+                                        Спонсор
+                                    </div>
+                                    <div class="item__inner-second">
+                                        АО «Самрук-Казына»
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="team-info__bottom-line">
+                <div class="bottom-line__item">
+                    <a href="#" class="bottom-line__link">КОМАНДНЫЙ СОСТАВ</a>
+                </div>
+                <div class="bottom-line__item">
+                    <a href="#" class="bottom-line__link">КАЛЕНДАРЬ МАТЧЕЙ</a>
+                </div>
+                <div class="bottom-line__item">
+                    <a href="#" class="bottom-line__link">СТАТИСТИКА</a>
+                </div>
+                <div class="bottom-line__item">
+                    <a href="#" class="bottom-line__link">ТРАНСФЕРЫ</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!------  CALENDAR TABEL  ----->
+
+
+<section class="calendar-tabel">
+    <div class="wrapper">
+        <div class="calendar-tabel__inner">
+            <div class="calendar-tabel__view">
+                <div class="calendar-tabel__view-title">
+                    Вид
+                </div>
+                <div class="calendar-tabel__view-list">
+                    <img src="fonts/list-icon.svg" alt="">
+                </div>
+                <div class="calendar-tabel__view-tabel">
+                    <img src="fonts/tabel-icon--active.svg" alt="">
+                </div>
+            </div>
+            <div class="calendar-tabel__nav">
+                <div class="tabel__nav-item">
+                    2021
+                </div>
+                <div class="tabel__nav-item">
+                    Все
+                </div>
+            </div>
+            <div class="calendra-tabel__block">
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+                <div class="tabel__block-inner">
+                    <div class="tabel__block-title">
+                        Товарищеский матч
+                    </div>
+                    <div class="tabel__block-anonce">
+                        <div class="anonce__team1">
+                            <img src="images/calendar-tabel/team1.png" alt="">
+                        </div>
+                        <div class="anonce__status">
+                            <div class="status__info">
+                                Ожидается
+                            </div>
+                            <div class="status__date">
+                                22.07.2021
+                            </div>
+                            <div class="status__time">
+                                17:00
+                            </div>
+                        </div>
+                        <div class="annonce__team2">
+                            <img src="images/calendar-tabel/team2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="tabel__block-view">
+                        Искать трансляцию
+                    </div>
+                </div>
+               
+            </div>
+            <div class="calendar__block-more">
+                ПОКАЗАТЬ БОЛЬШЕ
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<!------ ===== LAST NEWS ===== -------->
+
+<section class="last-news">
+    <div class="wrapper">
+        <div class="last-news__inner">
+            <div class="last-news__main">
+                <div class="last-news__main-block">
+                    <div class="main-block__inner">
+                        <div class="last-news__main-title">
+                            Последние новости
+                        </div>
+                        <div class="main-block__section-one">
+                            <div class="section-one__img">
+                                <img src="images/index/last-news/img1.jpg" alt="">
+                            </div>
+                            <div class="section-one__text">
+                                <div class="section-one__text-title">
+                                    Символическая сборная тура 9-ой лиги
+                                </div>
+                                <div class="section-one__text-subtitle">
+                                    Команда тура была составлена на основе статистического анализа матчей от партнера
+                                    ПФЛК – компании InStat.
+                                </div>
+                                <div class="section-one__text-date">
+                                    13.02.2021
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-block__section-two">
+                            <div class="section-two__img">
+                                <img src="images/index/last-news/img2.jpg" alt="">
+                            </div>
+                            <div class="section-two__text">
+                                <div class="section-two__text-title">
+                                    Марин Томасов — лучший футболист OLIMPBET-Чемпионата Казахстана в мае
+                                </div>
+                                <div class="section-two__text-subtitle">
+                                    Профессиональная футбольная лига Казахстана (ПФЛК) по традиции провела голосование
+                                    по итогам месяца.                               
+                                </div>
+                                <div class="section-two__text-date">
+                                    16.06.2021
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main-block__section-three">
+                            <div class="section-three__item">
+                                <a href="#" class="section-three__link">Все новости</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-news__main-subblock">
+                    <div class="subblock__inner">
+                        <div class="subblock__header">
+                            <div class="subblock__header-inner">
+                                <div class="subblock__header-logo">
+                                    <img src="fonts/logo.svg" alt="">
+                                </div>
+                                <div class="subblock__header-mail">
+                                    <div class="subblock__header-name">
+                                        PFLK.KZ
+                                    </div>
+                                    <div class="subblock__header-email">
+                                        @pfkaz
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="subblock__header-button">
+                                <img src="fonts/share-icon.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="subblock__main">
+                            <div class="subblock__main-title-one">
+                                <div class="title-one__title">
+                                    Год создания
+                                </div>
+                                <div class="title-one__text">
+                                    Лига была создана в 1992 году на базе зоны 8 второй
+                                    лиги СССР. Управляется Казахстанской федерацией
+                                    футбола. Сезон проходит по системе «весна осень».
+                                    <br>
+                                    <br>
+                                    В феврале 2008 года на заседании Исполнительного
+                                    комитета ФФК были внесены изменения в регламент
+                                    соревнований.        
+                                </div>
+                                <div class="title-one__date">
+                                    2 дн. назад
+                                </div>
+                            </div>
+                            <div class="subblock__main-title-two">
+                                <div class="title-two__title">
+                                    Год создания
+                                </div>
+                                <div class="title-two__text">
+                                    Лига была создана в 1992 году на базе зоны 8 второй
+                                    лиги СССР. Управляется Казахстанской федерацией
+                                    футбола. Сезон проходит по системе «весна осень».
+                                    <br>
+                                    <br>
+                                    В феврале 2008 года на заседании Исполнительного
+                                    комитета ФФК были внесены изменения в регламент
+                                    соревнований.       
+                                </div>
+                                <div class="title-two__date">
+                                    2 дн. назад
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!-------          === FOOTER ===                ------>
+
+
+
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="wrapper">
+                <div class="footer__logo">
+                    <img src="fonts/logo.svg" alt="logo">
+                    <div class="footer__logo--text">
+                        PFLK
+                    </div>
+                </div>
+                <div class="footer__contacts--adaptive">
+                    <div class="footer__contacts-location">
+                        010000, г. Нур-Султан, пр. Момышулы, 5а
+                    </div>
+                    <div class="footer__contacts-telemail">
+                        <a href="tel:+77172790794">+7 (7172) 79-07-94</a> 
+                        <a href="email:info@pflk.kz">info@pflk.kz</a>    
+                    </div>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__nav-list">
+                        <ul class="footer__list-first">
+                            <li class="list__first-item">
+                                <a href="#" class="list__first-link --footer__link">Главная</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__first-link --footer__link">новости</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__first-link --footer__link">результаты</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__first-link --footer__link">расписание</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__first-link --footer__link">приз с.жейлитбаева</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__list-second">
+                            <li class="list__second-item">
+                                <a href="#" class="list__second-link --footer__link">контакты</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__second-link --footer__link">календарь</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__second-link --footer__link">документы</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__second-link --footer__link">обратная связь</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__second-link --footer__link">администрация</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__list-third">
+                            <li class="list__third-item">
+                                <a href="#" class="list__third-link">olympbet-чемпионат</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__third-link">Первая лига</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__third-link">Вторая лига</a>
+                            </li>
+                            <li class="list__first-item">
+                                <a href="#" class="list__third-link">olimpbet-суперкубок</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__social">
+                        <div class="footer__social-item">
+                            <div class="social__item-top">
+                                <div class="social__item-twitter">
+                                    <img src="fonts/twitter-icon.svg" alt="twitter-icon">
+                                </div>
+                                <div class="social__item-vk">
+                                    <img src="fonts/vk-icon.svg" alt="vk-icon">
+                                </div>
+                            </div>
+                            <div class="social__item-bottom">
+                                <div class="social__item-youtube">
+                                    <img src="fonts/youtube-icon.svg" alt="youtube-icon">
+                                </div>
+                                <div class="social__item-instagram">
+                                    <img src="fonts/instagram-icon.svg" alt="instagram-icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__social-logo">
+                            <img src="images/footer/footer-social-logo.png" alt="footer-social-logo">
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-location">
+                        010000, г. Нур-Султан, пр. Момышулы, 5а
+                    </div>
+                    <div class="footer__contacts-telemail">
+                        <a href="tel:+77172790794">+7 (7172) 79-07-94</a> 
+                        <a href="email:info@pflk.kz">info@pflk.kz</a>    
+                    </div>
+                </div>
+                <div class="footer__author">
+                    <div class="footer__author-title">
+                        © 2021 Профессиональная футбольная лига Казахстана
+                    </div>
+                    <div class="footer__author-arrow">
+                        <div class="footer__inner-backtop__text">
+                            Наверх
+                        </div>
+                        <div class="footer__inner-backtop__arrow">
+                            <img src="fonts/arrow_backtop.svg" alt="arrow">
+                        </div>
+                    </div>
+                    <div class="footer__author-tv">
+                        <img src="images/footer/tv-logo1.jpg" alt="">
+                        <img src="images/footer/tv-logo2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
