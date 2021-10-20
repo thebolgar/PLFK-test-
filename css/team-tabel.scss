@@ -1,0 +1,123 @@
+
+// ======== TEAM TABEL ==========
+
+.team-tabel {
+
+    .team-tabel__inner {
+        background: #FFFFFF;
+        margin-top: 40px;
+        padding: 60px 100px 100px 100px;
+        .team-tabel__view {
+            padding: 0 0 40px 100px;
+            display: flex;
+            align-items: center;
+
+            .team-tabel__view-title {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                color: #1F3E7D;
+                margin-right: 30px;
+            }
+            .team-tabel__view-list {
+                margin-right: 10px;
+            }
+        }
+
+        .team-tabel__block {
+
+            .team-tabel__block-main {
+               
+                .block-main__title {
+                    padding: 30px 0 0 80px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-transform: uppercase;
+                    color: #0F141F;
+
+                }
+                .block-main__player-inner {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .block-main__player {
+                    max-width: 260px;
+                    padding: 0 10px;
+                    margin-top: 25px;
+                    .player__info {
+                        padding: 10px 20px 15px 20px;
+                        display: flex;
+                        flex-direction: column;
+                        text-transform: uppercase;
+                        background: #765CD9;
+
+                        .player__info-name {
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 18px;
+                            color: #FFFFFF;
+                            text-align: center;
+                            margin-bottom: 10px;
+
+                        }
+
+                        .player__info-block {
+                            display: flex;
+                            justify-content: space-between;
+                            .player__info-block__left {
+                                width: 60%;
+                                .player__info-block-about {
+                                    font-weight: normal;
+                                    font-size: 14px;
+                                    line-height: 16px;
+                                    color: #FFFFFF;
+
+                                    .info__about-heigt,
+                                    .info__about-weight,
+                                    .info__about-age {
+                                        display: flex;
+                                        
+                                        .about-heigt-text,
+                                        .about-weight-text,
+                                        .about-age-text {
+                                            width: 70%;
+                                        }
+
+                                        .about-heigt-numb,
+                                        .about-weight-numb,
+                                        .about-age-numb {
+                                            width: 20%;
+                                            text-align: right;
+                                        }
+
+                                    }
+                                }
+                            }
+
+                            .player__info-block-right {
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+
+                                .block-right__rait {
+                                    font-weight: bold;
+                                    font-size: 22px;
+                                    line-height: 26px;
+                                    color: #FFFFFF;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .team-tabel__inner {
+        padding: 40px 10px !important;
+    }
+}
