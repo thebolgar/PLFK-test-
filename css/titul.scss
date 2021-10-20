@@ -1,0 +1,49 @@
+.titul {
+
+    .titul__inner {
+        margin-top: 40px;
+        .titul__info {
+            background: #FFFFFF;
+            margin-top: 40px;
+            padding: 70px 100px 100px 100px;
+            .titul__info-title {
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 147%;
+                color: #000000;
+                margin: 70px 0 30px 0;
+            }
+
+            .titul__info-text {
+                font-size: 14px;
+                line-height: 147%;
+                color: #000000;
+
+            }
+
+            .titul__info-winers__title {
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 147%;
+                color: #000000;
+                margin: 60px 0 30px 0;
+            }
+
+            .titul__info-winners__list {
+               
+                .titul__info-winners__item {
+                    font-size: 14px;
+                    line-height: 170%;
+                    color: #000000;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .titul__info {
+        padding: 30px 10px !important;
+    }
+}
