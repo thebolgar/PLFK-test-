@@ -1,0 +1,126 @@
+.transfer .transfer__inner {
+  background: #FFFFFF;
+  margin-top: 40px;
+  padding: 40px 40px 100px 40px;
+}
+
+.transfer .transfer__inner .transfer__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #0F141F;
+  text-transform: uppercase;
+}
+
+.transfer .transfer__inner .transfer__header {
+  margin-top: 30px;
+}
+
+.transfer .transfer__inner .transfer__header .transfer__header-inner {
+  display: flex;
+  padding-top: 20px;
+  font-size: 12px;
+  line-height: 14px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transfer .transfer__inner .transfer__header .transfer__header-inner .transfer__header-date {
+  width: 10%;
+  text-align: center;
+}
+
+.transfer .transfer__inner .transfer__header .transfer__header-inner .transfer__header-leave {
+  width: 25%;
+  text-align: center;
+}
+
+.transfer .transfer__inner .transfer__header .transfer__header-inner .transfer__header-accept {
+  width: 25%;
+  text-align: center;
+}
+
+.transfer .transfer__inner .transfer__header .transfer__header-inner .transfer__header-price {
+  width: 15%;
+  text-align: center;
+}
+
+.transfer .transfer__inner .transfer__header .transfer__header-inner .transfer__header-sum {
+  width: 25%;
+  text-align: center;
+}
+
+.transfer .transfer__inner .transfer__block {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transfer .transfer__inner .transfer__block .transfer__block-inner {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.transfer .transfer__inner .transfer__block .transfer__block-inner .transfer__block-leave,
+.transfer .transfer__inner .transfer__block .transfer__block-inner .transfer__block-accept {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: center;
+}
+
+.transfer .transfer__inner .transfer__block .transfer__block-inner .transfer__block-leave img,
+.transfer .transfer__inner .transfer__block .transfer__block-inner .transfer__block-accept img {
+  margin-right: 5px;
+}
+
+.transfer .transfer__inner .transfer__block .transfer__block-inner .transfer__block-date {
+  width: 10%;
+  text-align: center;
+  font-weight: bold;
+  padding: 25px 0;
+}
+
+.transfer .transfer__inner .transfer__block .transfer__block-inner .transfer__block-price {
+  width: 15%;
+  text-align: center;
+  font-weight: 300;
+  opacity: .7;
+}
+
+.transfer .transfer__inner .transfer__block .transfer__block-inner .transfer__block-sum {
+  width: 25%;
+  text-align: center;
+}
+
+@media screen and (max-width: 630px) {
+  .transfer__inner {
+    padding: 40px 5px !important;
+  }
+  .transfer__header-inner {
+    font-size: 8px !important;
+  }
+  .transfer__block-inner {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .transfer__header-inner {
+    font-size: 8px !important;
+  }
+  .transfer__block-inner {
+    font-size: 10px !important;
+  }
+  .transfer__block-leave,
+.transfer__block-accept {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .transfer__block-leave img,
+.transfer__block-accept img {
+    margin-right: 0px !important;
+  }
+}
