@@ -1,0 +1,126 @@
+.team-tabel .team-tabel__inner {
+  background: #FFFFFF;
+  margin-top: 40px;
+  padding: 60px 100px 100px 100px;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__view {
+  padding: 0 0 40px 100px;
+  display: flex;
+  align-items: center;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__view .team-tabel__view-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1F3E7D;
+  margin-right: 30px;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__view .team-tabel__view-list {
+  margin-right: 10px;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__title {
+  padding: 30px 0 0 80px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #0F141F;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player-inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player {
+  max-width: 260px;
+  padding: 0 10px;
+  margin-top: 25px;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info {
+  padding: 10px 20px 15px 20px;
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  background: #765CD9;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-name {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left {
+  width: 60%;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-heigt,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-weight,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-age {
+  display: flex;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-heigt .about-heigt-text,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-heigt .about-weight-text,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-heigt .about-age-text,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-weight .about-heigt-text,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-weight .about-weight-text,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-weight .about-age-text,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-age .about-heigt-text,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-age .about-weight-text,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-age .about-age-text {
+  width: 70%;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-heigt .about-heigt-numb,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-heigt .about-weight-numb,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-heigt .about-age-numb,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-weight .about-heigt-numb,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-weight .about-weight-numb,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-weight .about-age-numb,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-age .about-heigt-numb,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-age .about-weight-numb,
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block__left .player__info-block-about .info__about-age .about-age-numb {
+  width: 20%;
+  text-align: right;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-tabel .team-tabel__inner .team-tabel__block .team-tabel__block-main .block-main__player .player__info .player__info-block .player__info-block-right .block-right__rait {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 992px) {
+  .team-tabel__inner {
+    padding: 40px 10px !important;
+  }
+}
