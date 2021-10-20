@@ -1,0 +1,191 @@
+
+
+// ====== TEAM LIST ======
+
+
+.team-list {
+    margin-top: 40px;
+    .team-list__inner {
+        background: #FFFFFF;
+        padding: 60px 100px 100px 100px;
+        
+        .team-list__view {
+            padding: 0 0 40px 100px;
+            display: flex;
+            align-items: center;
+
+            .team-list__view-title {
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                color: #1F3E7D;
+                margin-right: 30px;
+            }
+            .team-list__view-list {
+                margin-right: 10px;
+            }
+        }
+
+        .team-list__block {
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            .team-list__block-header {
+
+                .block-header__inner {
+                    display: flex;
+                    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-align: center;
+                    color: #0F141F;
+                    padding-top: 20px;
+
+                    .block-header__inner-number {
+                        width: 5%;
+                    }
+
+                    .block-header__inner-player {
+                        width: 25%;
+                    }
+                    
+                    .block-header__inner-role {
+                        width: 10%;
+                    }
+
+                    .block-header__inner-country {
+                        width: 10%;
+                    }
+
+                    .block-header__inner-age {
+                        width: 10%;
+                    }
+
+                    .block-header__inner-weight {
+                        width: 5%;
+                    }
+
+                    .block-header__inner-height {
+                        width: 5%;
+                    }
+
+                    .block-header__inner-date {
+                        width: 15%;
+                    }
+
+                    .block-header__inner-game {
+                        width: 15%;
+                    }
+                }
+            }
+
+            .team-list__block-main {
+                
+                .block-main__title {
+                    padding: 30px 0 10px 80px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 21px;
+                    text-transform: uppercase;
+                    color: #0F141F;
+
+                }
+
+                .block-main__goalkeeper {
+                    display: flex;
+                    align-items: center;
+                    text-align: center;
+                    font-size: 14px;
+                    line-height: 16px;
+                    text-align: center;
+                    color: #0F141F;
+                    .block-main__inner-number {
+                        width: 5%;
+                        font-weight: bold;
+                        
+                    }
+
+                    .block-main__inner-player {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 25%;
+                        text-align: center;
+                        padding: 27px 40px;
+                        background: #F4F4F4;
+                        line-height: 14px;
+                        
+                    }
+
+                    .block-main__inner-role {
+                        width: 10%;
+                    }
+
+                    .block-main__inner-country {
+                        width: 10%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+
+                    .block-main__inner-age {
+                        width: 10%;
+                    }
+
+                    .block-main__inner-weight {
+                        width: 5%;
+                    }
+
+                    .block-main__inner-height {
+                        width: 5%;
+                    }
+
+                    .block-main__inner-date {
+                        width: 15%;
+                    }
+
+                    .block-main__inner-game {
+                        width: 15%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+    .team-list__inner {
+        padding: 60px 10px !important;
+    }
+    .block-header__inner {
+        font-size: 8px !important;
+    }
+    .block-main__goalkeeper {
+        font-size: 12px !important;
+        line-height: 12px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .block-main__inner-player {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 5px !important;
+    }
+    .block-main__title {
+        padding-left: 10px !important;
+    }
+    .block-main__inner-country {
+        img {
+            width: 15px;
+            height: 15px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .block-main__goalkeeper {
+        font-size: 8px !important;
+        line-height: 10px !important;
+    }
+}
