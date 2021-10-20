@@ -1,0 +1,192 @@
+.player-info {
+    margin-top: 40px;
+    .player-info__inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFFFF;
+        padding: 50px 0 50px;
+
+        .player-info__main {
+
+            .info__main-inner {
+                display: flex;
+                align-items: center;
+
+                .info__main-about{ 
+                    margin-left: 30px;
+                    .main-about__name {
+                        font-weight: bold;
+                        font-size: 15px;
+                        line-height: 18px;
+                        color: #0F141F;
+                        text-transform: uppercase;
+
+
+                    }
+                    .main-about__info {
+                        font-size: 14px;
+                        line-height: 16px;
+                        margin-top: 20px;
+                        
+                        .about__info-numb,
+                        .about__info-team {
+                            margin-top: 20px;
+
+                        }
+                        .about__info-height,
+                        .about__info-weight,
+                        .about__info-age,
+                        .about__info-numb,
+                        .about__info-role,
+                        .about__info-country,
+                        .about__info-game,
+                        .about__info-zerogame,
+                        .about__info-team,
+                        .about__info-date {
+                            display: flex;
+                            align-items: center;
+
+                            .height__text,
+                            .weight__text,
+                            .age__text,
+                            .numb__text,
+                            .role__text,
+                            .country__text,
+                            .game__text,
+                            .zerogame__text,
+                            .team__text,
+                            .date__text {
+                                font-weight: bold;
+                                color: #0F141F;
+                                width: 120px
+                            }
+                        }
+
+                        .about__info-team,
+                        .about__info-country {
+                            .team__numb,
+                            .country__numb {
+                                display: flex;
+                                align-items: center;
+                            }
+
+                            .team__numb {
+
+                                img {
+                                    margin-right: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .player-info__more {
+            margin-left: 5%;
+            .info__more-title {
+                font-weight: bold;
+                font-size: 15px;
+                line-height: 18px;
+                color: #0F141F;
+                text-transform: uppercase;
+                margin-bottom: 30px;
+            }
+
+            .info__more-inner {
+                
+                display: flex;
+                flex-wrap: wrap;
+                max-width: 500px;
+                .info__more-block {
+                    padding: 5px;
+                    position: relative;
+                    .more-block__name {
+                        background: #765CD9;
+                        position: absolute;
+                        bottom: 0;
+                        left: 5px;
+                        width: 90px;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 14px;
+                        text-align: center;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+
+            .info__more-next {
+                margin-top: 15px;
+                text-align: right;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1F3E7D;
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 996px) {
+    .player-info__inner {
+        flex-direction: column;
+    }
+
+    .player-info__more {
+        margin-top: 30px;
+        margin-left: 0 !important;
+
+        .info__more-title {
+            margin-bottom: 10px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .main-about__name {
+        font-size: 14px !important;
+    }
+
+    .main-about__info {
+        font-size: 12px !important;
+    }
+    .height__text,
+    .weight__text,
+    .age__text,
+    .numb__text,
+    .role__text,
+    .country__text,
+    .game__text,
+    .zerogame__text,
+    .team__text,
+    .date__text {
+        font-weight: bold;
+        color: #0F141F;
+        width: 80px !important;
+    }
+    .info__main-about {
+        margin-left: 10px !important;
+    }
+
+    .about__info-team,
+    .about__info-country {
+        .team__numb,
+        .country__numb {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .team__numb {
+
+            img {
+                margin-right: 0px !important;
+            }
+        }
+    }
+}
